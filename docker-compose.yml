@@ -5,6 +5,8 @@ services:
       POSTGRES_USER: app
       POSTGRES_PASSWORD: app
       POSTGRES_DB: pvivscan
+      TZ: Asia/Shanghai
+      PGTZ: Asia/Shanghai
     ports:
       - "54402:5432"
     volumes:
